@@ -1,8 +1,8 @@
-
 import './App.css';
 import { useEffect, useState } from 'react';
-import Countries from './components/Country/Countries';
+import Countries from './components/Countries/Countries';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       {/* <LoadCountries></LoadCountries> */}
       <Header></Header>
       <Countries></Countries>
+      <Footer></Footer>
     </div>
   );
 } 
