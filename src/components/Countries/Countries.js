@@ -12,7 +12,11 @@ const Countries = () => {
         <div>
             <h2>Countries with other file {countries.length}</h2>
             {
-        countries.map(country=> <Country name={country.name.common} population={country.population}></Country>)
+        countries.map(country=> <Country 
+            name={country.name.common} 
+            population={country.population}
+            area ={country.area}
+            ></Country>)
         
       }
         </div>
